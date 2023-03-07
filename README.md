@@ -28,7 +28,7 @@ Create a copy of the multimesh transform into a new MultiMeshInstance3D detached
 
 ## Usage
 
-Important! You must add an autoload to the project. Use the res://addons/YourMultimeshAssistant/signals.gd script. Verify that the name is Signals. Restart or try to enable the plugin.
+!!!Important: You must add an autoload to the project. Use the res://addons/YourMultimeshAssistant/signals.gd script. Verify that the name is Signals. Enable to plugin and Reload Current Project!!!
 
 Add a YourMultimeshAssitant node to the scene tree
 
