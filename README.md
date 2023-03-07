@@ -1,7 +1,8 @@
 # MultiMeshCreator
 A multimesh plugin for Godot 4.x
 
-This tool provides an easy way to place objects onto a collision shape, while creating a multimesh, and allowing the transform of each individual instance.
+This tool provides an easy way to place objects onto a mesh, while creating a multimesh, and allowing the transform of each individual instance.
+
 
 ## Features
 
@@ -48,9 +49,10 @@ To create a copy of the multimesh transform click the Copy Transform box. This w
 
 Example
 
-	Your imported gltf imports as a Node3D. Add it to your scene and then right click and check 'Editable Children'. Expand the node and if there are multiple MeshInstance3Ds you can use one of them as the plugin mesh by assigning it to the 'Choose Mesh from Tree'. Once you are done placing those objects click Copy Transform and a MMI3D node will be added to the scene. You can select another mesh to have the same transform as the first.
+Your imported gltf imports as a Node3D. Add it to your scene and then right click and check 'Editable Children'. Expand the node and if there are multiple MeshInstance3Ds you can use one of them as the plugin mesh by assigning it to the 'Choose Mesh from Tree'. Once you are done placing those objects click Copy Transform and a MMI3D node will be added to the scene. You can select another mesh to have the same transform as the first.
 	
 This may be useful for something like a tree where you want the trunk and leave to be separated meshes. Keep in mind all meshes will use the mesh origin for placing at the target position. This may cause unexpected results if you do not pay attention to the origin before exporting and importing into Godot.
+
 
 
 ## Limitations
@@ -62,7 +64,6 @@ Using the function which require you to click onto a mesh require the mesh to ha
 
 
 ##Future Updates
-
 
 Add a delete option based on a multimesh instance that you enter into the 'Select Instance' box
 
