@@ -56,7 +56,11 @@ Your imported gltf imports as a Node3D. Add it to your scene and then right clic
 	
 This may be useful for something like a tree where you want the trunk and leave to be separated meshes. Keep in mind all meshes will use the mesh origin for placing at the target position. This may cause unexpected results if you do not pay attention to the origin before exporting and importing into Godot.
 
+USE THE CUSTOM AABB TO PLACE YOUR MULTIMESH
+<img width="837" alt="grassland" src="https://user-images.githubusercontent.com/65772616/223486720-aeafe40d-c80c-4905-8680-5f18fb5097c3.png">
 
+DELETE AREAS THAT YOU DO NOT WANT TO HAVE INSTANCES
+<img width="617" alt="globe" src="https://user-images.githubusercontent.com/65772616/223487117-9c5f24c5-68c2-43ce-a147-7dbec8f466e9.png">
 
 ## Limitations
 
@@ -77,9 +81,3 @@ Add dragand drop functionality to moving instances
 Add rotation gizmo for rotating an instance
 
 Make the menu colors based on the theme currently set
-
-USE THE CUSTOM AABB TO PLACE YOUR MULTIMESH
-<img width="837" alt="grassland" src="https://user-images.githubusercontent.com/65772616/223486720-aeafe40d-c80c-4905-8680-5f18fb5097c3.png">
-
-DELETE AREAS THAT YOU DO NOT WANT TO HAVE INSTANCES
-<img width="617" alt="globe" src="https://user-images.githubusercontent.com/65772616/223487117-9c5f24c5-68c2-43ce-a147-7dbec8f466e9.png">
