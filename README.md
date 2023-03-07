@@ -22,6 +22,9 @@ Add a mesh from a node in the scene tree
 
 Create a copy of the multimesh transform into a new MultiMeshInstance3D detached from the plugin
 
+<img width="1066" alt="snowland" src="https://user-images.githubusercontent.com/65772616/223486361-28387e3d-1024-4960-a795-19e6ba57e8a9.png">
+
+<img width="338" alt="custom_menu" src="https://user-images.githubusercontent.com/65772616/223487390-3a3a6e5b-09fd-44e0-90a2-7526323b794f.png">
 
 ## Usage
 
@@ -75,3 +78,8 @@ Add rotation gizmo for rotating an instance
 
 Make the menu colors based on the theme currently set
 
+USE THE CUSTOM AABB TO PLACE YOUR MULTIMESH
+<img width="837" alt="grassland" src="https://user-images.githubusercontent.com/65772616/223486720-aeafe40d-c80c-4905-8680-5f18fb5097c3.png">
+
+DELETE AREAS THAT YOU DO NOT WANT TO HAVE INSTANCES
+<img width="617" alt="globe" src="https://user-images.githubusercontent.com/65772616/223487117-9c5f24c5-68c2-43ce-a147-7dbec8f466e9.png">
