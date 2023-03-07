@@ -68,11 +68,13 @@ Since Godot doesn't support a way to use Raycast on an object without a collisio
 
 Using the function which require you to click onto a mesh require the mesh to have a collision shape. If you do not want a collision shape you can add it and then delete it once the multimesh is built. (Generate Multimesh does not require a collision shape).
 
-
+If using a custom AABB and you place it in an area where it does not encapsulate the vertices of any faces it will not create a multimesh. i.e. create a large plane and place a aabb in the center. Try to generate a multimesh and you will get nothing. If you subdivide the mesh enough it will then register. 
 
 ## Future Updates
 
 Add a delete option based on a multimesh instance that you enter into the 'Select Instance' box
+
+Generate a multimesh using custom aabb that does not require it to encasuplate the vertices of each face where the instances will be placed.
 
 Add a horizontal scroll bar to the transform positions that will allow you to fine tune move the positoning of the selected instance. Currently you have to typ in a position. The scroll bar would allow you to move it +- 5m.
 
